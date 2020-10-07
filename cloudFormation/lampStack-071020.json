@@ -432,7 +432,7 @@
                "# Start  of SG added Script\n",
                "yum install -y git\n",
                "mkdir /var/www/html/v1\n",
-               "git clone https://github.com/SteveGaleComputingStudies/2020i40.git /var/www/html/v1\n",
+               "git clone https://github.com/SteveGaleComputingStudies/awsLAMPcf.git /var/www/html/v1\n",
                "usermod -a -G apache ec2-user",
                "chown -R ec2-user:apache /var/www/html",
                "yum install php-mysqli",
