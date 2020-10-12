@@ -431,11 +431,11 @@
                "         --region ", { "Ref" : "AWS::Region" }, "\n",
                "# Start  of SG added Script\n",
                "yum install -y git\n",
-               "mkdir /var/www/html/v1\n",
-               "git clone https://github.com/SteveGaleComputingStudies/awsLAMPcf.git /var/www/html/v1\n",
-               "usermod -a -G apache ec2-user",
-               "chown -R ec2-user:apache /var/www/html",
-               "yum install php-mysqli",
+               "mkdir /var/www/html/i40Test\n",
+               "git clone https://github.com/SteveGaleComputingStudies/awsLAMPcf.git /var/www/html/i40Test\n",
+               "usermod -a -G apache ec2-user\n",
+               "chown -R ec2-user:apache /var/www/html/i40Test/\n",
+               "yum install php-mysqli\n",
                "# End of SG added Script\n"
           ]]}}        
         },
